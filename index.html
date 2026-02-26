@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<title>Portal Kesehatan Indonesia</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Portal Kesehatan Indonesia</h1>
+<p>Informasi Kesehatan Terkini & Terpercaya</p>
+</header>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Kesehatan Publik</a>
+<a href="#">Gizi</a>
+<a href="#">Penyakit</a>
+</nav>
+
+<main>
+
+<!-- ===== ARTIKEL UTAMA (FULL) ===== -->
+<section class="headline">
+
+<h2>Analisa Isu Publik Kesehatan Periode 18-20 Februari 2026</h2>
+
+<small>24 Februari 2026 | Oleh: Tim Redaksi</small>
+
+<img src="https://www.badankebijakan.kemkes.go.id/wp-content/uploads/2026/02/Slide-2-Analisa-768x432.jpg">
+
+<p>
+Laporan ini menyoroti tiga isu prioritas dalam manajemen krisis kesehatan periode 18-20 Februari 2026.
+Fokus utamanya mencakup penanganan polemik administratif dr. Piprim Basarah Yanuarso melalui kronologi resmi
+guna meredam narasi solidaritas profesi.
+</p>
+
+<p>
+Program Makan Bergizi Gratis dengan anggaran Rp335 Triliun memerlukan mitigasi ketat terhadap risiko
+keracunan serta pengawasan distribusi makanan untuk menjaga keamanan publik.
+Target pemulihan 100% faskes di Sumatera pascabencana juga menjadi prioritas dengan dukungan dana Rp529,3 Miliar.
+</p>
+
+<p>
+Transformasi layanan difokuskan pada optimalisasi Cek Kesehatan Gratis (CKG) dengan pendekatan deteksi dini
+aktivitas fisik sebagai langkah preventif penyakit tidak menular.
+Keberlanjutan layanan peserta PBI JKN selama masa transisi pasien nonaktif tetap dijamin.
+</p>
+
+<p>
+Upaya edukasi publik dilakukan untuk menangkal misinformasi terkait vaksinasi HPV anak laki-laki
+melalui format Myth vs Fact dan FAQ kesehatan.
+</p>
+
+</section>
+
+
+<!-- ===== ARTIKEL READ MORE ===== -->
+
+<section class="article">
+
+<h3>Pentingnya Deteksi Dini Penyakit Jantung</h3>
+
+<p>
+Penyakit jantung merupakan salah satu penyebab kematian tertinggi di dunia.
+Deteksi dini melalui pemeriksaan kesehatan rutin dapat membantu mengurangi risiko komplikasi serius.
+</p>
+
+<p class="more-text">
+Gaya hidup sehat seperti olahraga teratur, pola makan seimbang,
+serta menghindari stres berlebihan sangat penting untuk menjaga kesehatan jantung.
+</p>
+
+<button onclick="toggleRead(this)">Read More</button>
+
+</section>
+
+
+<section class="article">
+
+<h3>Vaksinasi HPV untuk Remaja</h3>
+
+<p>
+Edukasi publik mengenai pentingnya vaksin HPV terus digencarkan.
+</p>
+
+<p class="more-text">
+Program vaksinasi dilakukan secara bertahap dengan pengawasan tenaga kesehatan profesional
+untuk mencegah risiko kanker di masa depan.
+</p>
+
+<button onclick="toggleRead(this)">Read More</button>
+
+</section>
+
+</main>
+
+
+<footer>
+© 2026 Portal Kesehatan Indonesia | Powered by LAW
+</footer>
+
+
+<script>
+function toggleRead(button){
+const moreText = button.previousElementSibling;
+
+if(moreText.style.display === "block"){
+moreText.style.display = "none";
+button.innerText = "Read More";
+}else{
+moreText.style.display = "block";
+button.innerText = "Read Less";
+}
+}
+</script>
+
+</body>
+</html>
